@@ -1,0 +1,110 @@
+/**************************************************************************************************\ 
+Corps de la page
+\**************************************************************************************************/
+body {
+  background: #d0d0d0;
+}
+
+
+/**************************************************************************************************\ 
+Volet de navigation
+\**************************************************************************************************/
+nav {
+  font-family: "Times New Roman";
+  line-height: 1.5;
+  width: 400px;
+  padding: 0px;
+  margin : 10px;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+  padding: 7px 12px;
+  background: radial-gradient(#555555, #222222);
+  color: #fff;
+  margin: 0px;
+  border-bottom: 4px solid #d0d0d0;
+}
+
+.matiere {
+  background: #fff;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.matiere h3 {
+  color: #fff;
+  font-size: large;
+  font-weight: normal;
+  padding: 7px 12px;
+  background: radial-gradient(#555555, #222222);
+  margin: 0px;
+}
+.matiere h3:hover {
+  background: radial-gradient(#666666, #333333);
+}
+.matiere ul {
+  background: #fff;
+  font-size: medium;
+  line-height: 30px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  transition: height 0.5s ease;
+}
+
+.un_doc:hover ul       { height:  31px;}
+.deux_doc:hover ul     { height:  62px;}
+.trois_doc:hover ul    { height:  93px;}
+.quatre_doc:hover ul   { height: 124px;}
+.cinq_doc:hover ul     { height: 155px;}
+.six_doc:hover ul      { height: 186px;}
+.sept_doc:hover ul     { height: 217px;}
+.huit_doc:hover ul     { height: 248px;}
+.neuf_doc:hover ul     { height: 279px;}
+.dix_doc:hover ul      { height: 310px;}
+.onze_doc:hover ul     { height: 341px;}
+.douze_doc:hover ul    { height: 372px;}
+.treize_doc:hover ul   { height: 403px;}
+.quatorze_doc:hover ul { height: 434px;}
+.quinze_doc:hover ul   { height: 465px;}
+.seize_doc:hover ul    { height: 491px;}
+.dix_sept_doc:hover ul { height: 522px;}
+
+.matiere ul a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #222222;
+}
+.matiere li {
+  border-bottom: 1px solid #eee;
+}
+.matiere li:hover {
+  background: #eee;
+}
+
+
+/**************************************************************************************************\
+Contenu
+\**************************************************************************************************/
+section {
+  position : absolute;
+  top : 10px;
+  left : 430px;
+  right : 10px;
+  bottom : 10px;
+  border-style : solid;
+  border-color : black;
+  border-width : 1px;
+}
+
+iframe {
+  border-style : none;
+  border:0;
+  margin:0;
+}
